@@ -26,13 +26,13 @@
 
       .brand {
         &-title {
-          @apply text-2xl font-bold text-yellow-500;
+          @apply text-2xl font-bold text-blue-500;
         }
       }
       .menu {
         @apply flex gap-2;
         &-item {
-          @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-500;
+          @apply rounded-md px-4 py-2 hover:bg-blue-500 hover:text-white;
         }
         &-login {
           @apply rounded-md px-4 py-2 bg-red-400 hover:bg-red-800 text-red-100;
