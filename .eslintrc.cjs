@@ -9,18 +9,10 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
-    'prettier/prettier': ['error'],
+    'prettier/prettier': 'off',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off',
-    'vue/script-indent': [
-      'error',
-      1,
-      {
-        baseIndent: 2,
-        switchCase: 2,
-        ignores: [],
-      },
-    ],
+    'vue/script-indent': 'off',
   },
   env: {
     browser: true,
