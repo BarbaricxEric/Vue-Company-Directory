@@ -17,7 +17,7 @@
           <p v-show="isAuthenticated" class="px-11 py-1">
             Welcome back
             <strong
-              ><i>{{ user.name }}</i></strong
+              ><i>{{ user?.email }}</i></strong
             >
           </p>
           <RouterLink :to="{ name: 'Home' }" href="#" class="menu-item">Departments</RouterLink>
